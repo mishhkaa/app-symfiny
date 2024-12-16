@@ -24,8 +24,8 @@ This project is a web application that provides an API to retrieve cryptocurrenc
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo.git
-   cd your-repo
+   git clone https://github.com/mishhkaa/app-symfony-.git
+   cd app-symfony-
    ```
 
 2. Install dependencies:
@@ -73,7 +73,7 @@ http://localhost:8000/api/rates?currencyPair=BTC/USD&start=2024-12-01&end=2024-1
     {
         "id": 1,
         "currencyPair": "BTC/USD",
-        "rate": 102961.55,
+        "rate": 50000,
         "timestamp": "2024-12-14 13:17:03"
     }
 ]
@@ -115,5 +115,4 @@ To automate updates, use a CRON job:
 - `src/Command`: Custom console commands.
 - `config`: Configuration files.
 - `public`: Entry point and assets.
-
 
