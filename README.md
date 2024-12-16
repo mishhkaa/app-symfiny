@@ -73,7 +73,7 @@ http://localhost:8000/api/rates?currencyPair=BTC/USD&start=2024-12-01&end=2024-1
     {
         "id": 1,
         "currencyPair": "BTC/USD",
-        "rate": 50000,
+        "rate": 102961.55,
         "timestamp": "2024-12-14 13:17:03"
     }
 ]
@@ -116,6 +116,4 @@ To automate updates, use a CRON job:
 - `config`: Configuration files.
 - `public`: Entry point and assets.
 
-## Contact
-For issues, email [your-email@example.com](mailto:your-email@example.com).
 
